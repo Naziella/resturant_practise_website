@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "roboto", sans-serif;
+  line-height: 1;
+  color: #555;
+  font-size: 1.6rem;
+}
+/* 
+**************************** */
+/* NAVIGATION */
+/* **************************** */
+
+.main-nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 2.4rem 1.6rem;
+
+  align-items: center;
+  background: linear-gradient(#11a329a4, rgba(0, 0, 0, 0), #ffffff00);
+}
+
+.logo {
+  font-size: 3.6rem;
+  color: #fff;
+}
+
+.nav-lists {
+  display: flex;
+  list-style: none;
+  gap: 2.4rem;
+}
+
+.nav-list-item:link,
+.nav-list-item:visited {
+  text-decoration: none;
+  font-size: 2rem;
+  color: #fff;
+  display: inline-block;
+  transition: all 0.2s;
+}
+
+.nav-list-item:hover,
+.nav-list-item:active {
+  transform: translate(0, -0.2rem);
+  color: #51cf66;
+}
+
+/* 
+**************************** */
+/* HEADER*/
+/* **************************** */
+
+.main-header {
+  height: 60rem;
+  background: linear-gradient(#01a11c48, #ffffff00),
+    url(/img/header-background.jpg);
+  background-position: center;
+  background-size: cover;
+}
